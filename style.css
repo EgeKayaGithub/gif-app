@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.search-wrapper{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-wrapper input{
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    border: 1px solid #bbb;
+}
+.search-wrapper button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+
+.gifs-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.gifCard{
+    margin: 10px;
+}
+.gifCard img{
+    padding: 5px;
+    border: 1px black solid;
+    background-color: #222222;
+    max-width: 300px;
+    min-width: 200px;
+    max-height: 200px;
+    min-height: 100px;
+}
